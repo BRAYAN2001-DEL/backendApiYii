@@ -3,6 +3,7 @@ Saludos Cordiales:
 Soy Brayan en la raiz del documento se encuentra documentado el json para importarlo al postman y poder hacer las diferentes pruebas:
 De igual forma integro un video explicando paso a paso del proyecto tanto su despliegue como las pruebas de consumo de api rest.
 
+https://drive.google.com/file/d/1EQIum1IFdrvmg-IyLYzkWTXJAV_BK-bJ/view?usp=sharing
 
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
