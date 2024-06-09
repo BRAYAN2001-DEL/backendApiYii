@@ -4,6 +4,22 @@ Soy Brayan en la raiz del documento se encuentra documentado el json para import
 De igual forma integro un video explicando paso a paso del proyecto tanto su despliegue como las pruebas de consumo de api rest.
 
 https://drive.google.com/file/d/1EQIum1IFdrvmg-IyLYzkWTXJAV_BK-bJ/view?usp=sharing
+
+-----------------------
+// comandos de creacion de proyecto
+
+composer create-project --prefer-dist --stability=dev yiisoft/yii2-app-basic practicaApiMongoDb
+
+
+--para encender el servidor yii2:
+ php yii serve --port=7081 
+
+ // dependecias necesarias
+composer require --prefer-dist yiisoft/yii2-mongodb
+composer require firebase/php-jwt
+composer require yiisoft/yii2-mongodb
+
+
  <video width="640" height="480" controls>
         <source src="https://drive.google.com/uc?export=download&id=1EQIum1IFdrvmg-IyLYzkWTXJAV_BK-bJ" type="video/mp4">
         Tu navegador no soporta el elemento de video.
