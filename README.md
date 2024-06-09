@@ -4,7 +4,11 @@ Soy Brayan en la raiz del documento se encuentra documentado el json para import
 De igual forma integro un video explicando paso a paso del proyecto tanto su despliegue como las pruebas de consumo de api rest.
 
 https://drive.google.com/file/d/1EQIum1IFdrvmg-IyLYzkWTXJAV_BK-bJ/view?usp=sharing
-
+ <video width="640" height="480" controls>
+        <source src="https://drive.google.com/uc?export=download&id=1EQIum1IFdrvmg-IyLYzkWTXJAV_BK-bJ" type="video/mp4">
+        Tu navegador no soporta el elemento de video.
+    </video>
+    
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
