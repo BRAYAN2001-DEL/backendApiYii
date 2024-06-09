@@ -1,0 +1,289 @@
+{
+	"info": {
+		"_postman_id": "b8023fc5-d269-436b-95e1-f028417af671",
+		"name": "estudio",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29815132",
+		"_collection_link": "https://brayan-7562.postman.co/workspace/New-Team-Workspace~9ffba97c-e656-46a2-8597-dfb797bbb219/collection/29815132-b8023fc5-d269-436b-95e1-f028417af671?action=share&source=collection_link&creator=29815132"
+	},
+	"item": [
+		{
+			"name": "findByAll",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8044/api/profesores",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8044",
+					"path": [
+						"api",
+						"profesores"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:7081/libros/get-by-header-id",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "genero",
+						"value": "analgoia",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "autores",
+						"value": "Dante Aligheri",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "anio",
+						"value": "1667",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "_id",
+						"value": "66651de3df81e0e2c200b185",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:7081/libros/get-by-header-id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7081",
+					"path": [
+						"libros",
+						"get-by-header-id"
+					],
+					"query": [
+						{
+							"key": "_id",
+							"value": "6664c83e0c453cb453046825",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:7081/libros/get-by-header-id Copy",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "genero",
+						"value": "analgoia",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "autores",
+						"value": "Dante Aligheri",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "anio",
+						"value": "1667",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "_id",
+						"value": "66651de3df81e0e2c200b185",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:7081/libros/delete/66651de3df81e0e2c200b185",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7081",
+					"path": [
+						"libros",
+						"delete",
+						"66651de3df81e0e2c200b185"
+					],
+					"query": [
+						{
+							"key": "_id",
+							"value": "6664c83e0c453cb453046825",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:7081/libros/get-by-header-id Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "genero",
+						"value": "analgoia",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "autores",
+						"value": "Dante Aligheri",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "anio",
+						"value": "1667",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "_id",
+						"value": "66651de3df81e0e2c200b185",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"titulo\":\"La divina comedia\",\r\n    \"autores\":\"La divina \",\r\n    \"anio_publicacion\":19667,\r\n    \"genero\":\"La  comedia\",\r\n    \"descripcion\":\"La divina comedia\",\r\n    \"isbn\":\"La divina comedia\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7081/libros/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7081",
+					"path": [
+						"libros",
+						"create"
+					],
+					"query": [
+						{
+							"key": "_id",
+							"value": "6664c83e0c453cb453046825",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:7081/libros/get-by-header-id Copy 2",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "genero",
+						"value": "analgoia",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "autores",
+						"value": "Dante Aligheri",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "anio",
+						"value": "1667",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "_id",
+						"value": "66651de3df81e0e2c200b185",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"_id\":\"66651de3df81e0e2c200b185\"\r\n    /*\"titulo\":\"La divina comedia\",\r\n    \"autores\":\"La divina \",\r\n    \"anio_publicacion\":19667,\r\n    \"genero\":\"La  comedia\",\r\n    \"descripcion\":\"La divina comedia\",\r\n    \"isbn\":\"La divina comedia\"*/\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7081/update-put",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7081",
+					"path": [
+						"update-put"
+					],
+					"query": [
+						{
+							"key": "_id",
+							"value": "6664c83e0c453cb453046825",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
